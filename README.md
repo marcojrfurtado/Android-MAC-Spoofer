@@ -9,10 +9,9 @@ Spoof the MAC address of your rooted Android device from Windows. Allows backup 
 2nd - (Required) Go to Developer Options on your device and allow "USB Debugging" mode
 3rd - (Required) Make sure device driver is installed on Windows
 4th - (Recommended) Download the Android SDK
-		and set the environment variable "ANDROID_HOME" to the root directory of the SDK.
-		
-		This script relies on the Android Debug Bridge (adb). By default, it will look for "adb.exe" on %ANDROID_HOME%\platform-tools\adb.exe
-		If not found, it will run the "adb.exe" bundled with this script, which should work for Windows x64 machines.
+and set the environment variable "ANDROID_HOME" to the root directory of the SDK.
+This script relies on the Android Debug Bridge (adb). By default, it will look for "adb.exe" on %ANDROID_HOME%\platform-tools\adb.exe
+If not found, it will run the "adb.exe" bundled with this script, which should work for Windows x64 machines.
 		
 
 ## Usage
